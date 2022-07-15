@@ -1,0 +1,123 @@
+<mxfile host="65bd71144e">
+    <diagram id="pxZO5LiSHGiJUqhgV9ci" name="Page-1">
+        <mxGraphModel dx="1074" dy="2038" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+            <root>
+                <mxCell id="0"/>
+                <mxCell id="1" parent="0"/>
+                <mxCell id="2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;spacing=2;strokeWidth=3;strokeColor=#FF9933;" edge="1" parent="1" source="4" target="6">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;strokeColor=#00CC66;spacing=2;strokeWidth=3;" edge="1" parent="1" source="4" target="8">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="4" value="游戏模块" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;spacing=2;strokeWidth=3;fillColor=#FFFFFF;strokeColor=#B3B3B3;" vertex="1" parent="1">
+                    <mxGeometry x="610" y="-1120" width="80" height="80" as="geometry"/>
+                </mxCell>
+                <mxCell id="5" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;spacing=2;strokeWidth=3;strokeColor=#FF9933;" edge="1" parent="1" source="6" target="12">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="6" value="打开中奖记录" style="rounded=0;whiteSpace=wrap;html=1;spacing=2;strokeWidth=3;strokeColor=#FF9933;" vertex="1" parent="1">
+                    <mxGeometry x="690" y="-980" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="7" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#00CC66;spacing=2;strokeWidth=3;" edge="1" parent="1" source="8" target="10">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="8" value="开始抽奖" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#00CC66;spacing=2;strokeWidth=3;" vertex="1" parent="1">
+                    <mxGeometry x="490" y="-980" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;strokeColor=#00CC66;spacing=2;strokeWidth=3;" edge="1" parent="1" source="10" target="20">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="597.5" y="-810" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="10" value="显示中奖结果" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#00CC66;spacing=2;strokeWidth=3;" vertex="1" parent="1">
+                    <mxGeometry x="490" y="-880" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;spacing=2;strokeWidth=3;strokeColor=#FF9933;" edge="1" parent="1" source="12" target="20">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="702.5" y="-810" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="12" value="选择中奖条目" style="whiteSpace=wrap;html=1;rounded=0;spacing=2;strokeWidth=3;strokeColor=#FF9933;" vertex="1" parent="1">
+                    <mxGeometry x="690" y="-880" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="13" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;spacing=2;strokeWidth=3;strokeColor=#CCCC00;" edge="1" parent="1" source="17" target="18">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="14" value="否" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];strokeColor=#00CC66;spacing=2;" vertex="1" connectable="0" parent="13">
+                    <mxGeometry x="-0.2667" relative="1" as="geometry">
+                        <mxPoint as="offset"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="15" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;spacing=2;strokeWidth=3;strokeColor=#CCCC00;" edge="1" parent="1" source="17" target="22">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="16" value="是" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];strokeColor=#00CC66;spacing=2;" vertex="1" connectable="0" parent="15">
+                    <mxGeometry x="0.2" y="1" relative="1" as="geometry">
+                        <mxPoint x="-1" y="-10" as="offset"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="17" value="是否需要&lt;br&gt;填写地址" style="rhombus;whiteSpace=wrap;html=1;spacing=2;strokeWidth=3;strokeColor=#CCCC00;" vertex="1" parent="1">
+                    <mxGeometry x="600" y="-710" width="100" height="80" as="geometry"/>
+                </mxCell>
+                <mxCell id="18" value="结束" style="ellipse;whiteSpace=wrap;html=1;spacing=2;strokeWidth=3;strokeColor=#CCCC00;" vertex="1" parent="1">
+                    <mxGeometry x="457.5" y="-700" width="90" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="19" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;spacing=2;strokeWidth=3;strokeColor=#CCCC00;" edge="1" parent="1" source="20" target="17">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="20" value="操作中奖结果/记录" style="rounded=0;whiteSpace=wrap;html=1;spacing=2;strokeWidth=3;strokeColor=#CCCC00;" vertex="1" parent="1">
+                    <mxGeometry x="590" y="-800" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="21" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;spacing=2;strokeWidth=3;strokeColor=#CCCC00;" edge="1" parent="1" source="22" target="26">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="22" value="弹出地址收集表单" style="whiteSpace=wrap;html=1;spacing=2;strokeWidth=3;strokeColor=#CCCC00;" vertex="1" parent="1">
+                    <mxGeometry x="590" y="-580" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="23" value="存储当前&lt;br&gt;中奖/记录&lt;br&gt;到运行时" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;spacing=2;strokeWidth=3;strokeColor=#B3B3B3;" vertex="1" parent="1">
+                    <mxGeometry x="800" y="-690" width="70" height="240" as="geometry"/>
+                </mxCell>
+                <mxCell id="24" value="" style="shape=flexArrow;endArrow=classic;html=1;spacing=2;strokeWidth=3;strokeColor=#B3B3B3;" edge="1" parent="1">
+                    <mxGeometry width="50" height="50" relative="1" as="geometry">
+                        <mxPoint x="730" y="-670" as="sourcePoint"/>
+                        <mxPoint x="787" y="-670.5" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="25" value="" style="shape=flexArrow;endArrow=classic;html=1;spacing=2;strokeWidth=3;strokeColor=#B3B3B3;" edge="1" parent="1">
+                    <mxGeometry width="50" height="50" relative="1" as="geometry">
+                        <mxPoint x="790" y="-480" as="sourcePoint"/>
+                        <mxPoint x="730" y="-480" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="26" value="保存收货地址" style="ellipse;whiteSpace=wrap;html=1;spacing=2;strokeWidth=3;strokeColor=#CCCC00;" vertex="1" parent="1">
+                    <mxGeometry x="590" y="-490" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="27" value="Game" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+                    <mxGeometry x="490" y="-1010" width="40" height="20" as="geometry"/>
+                </mxCell>
+                <mxCell id="28" value="GameRecords" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+                    <mxGeometry x="765" y="-1010" width="90" height="20" as="geometry"/>
+                </mxCell>
+                <mxCell id="29" value="props.visible" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+                    <mxGeometry x="770" y="-910" width="85" height="20" as="geometry"/>
+                </mxCell>
+                <mxCell id="30" value="props.start" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+                    <mxGeometry x="460" y="-910" width="85" height="20" as="geometry"/>
+                </mxCell>
+                <mxCell id="31" value="&lt;div style=&quot;font-size: 14px&quot;&gt;gameHandle?.game.current?.core.&lt;font color=&quot;#00ff80&quot;&gt;AddressModal.showModal&lt;/font&gt;(&lt;/div&gt;&lt;blockquote style=&quot;margin: 0 0 0 40px ; border: none ; padding: 0px&quot;&gt;&lt;div style=&quot;font-size: 14px&quot;&gt;(address) =&amp;gt; {&lt;/div&gt;&lt;div style=&quot;font-size: 14px&quot;&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; console.log(address);&lt;/div&gt;&lt;div style=&quot;font-size: 14px&quot;&gt;}&lt;/div&gt;&lt;/blockquote&gt;&lt;div style=&quot;font-size: 14px&quot;&gt;);&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;strokeWidth=18;align=left;fillColor=#000000;fontColor=#FFFFFF;fontSize=14;" vertex="1" parent="1">
+                    <mxGeometry x="50" y="-570" width="390" height="70" as="geometry"/>
+                </mxCell>
+                <mxCell id="32" value="&lt;div&gt;import &lt;font color=&quot;#00ff80&quot;&gt;Game&lt;/font&gt;, { &lt;font color=&quot;#00ff80&quot;&gt;GameRecords&lt;/font&gt; } from &quot;~/components/Game&quot;;&lt;br&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;strokeWidth=18;align=left;fillColor=#000000;fontColor=#FFFFFF;fontSize=14;" vertex="1" parent="1">
+                    <mxGeometry x="50" y="-1040" width="390" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="33" value="&lt;div&gt;&lt;div&gt;let &lt;font color=&quot;#00ff80&quot;&gt;gameHandle&lt;/font&gt;: GameHandle&amp;lt;typeof Game&amp;gt; | undefined = undefined;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;const setGameHandle = useCallback((ref) =&amp;gt; {&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &lt;font color=&quot;#00ff80&quot;&gt;gameHandle = ref&lt;/font&gt;;&lt;/div&gt;&lt;div&gt;}, []);&lt;/div&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;strokeWidth=18;align=left;fillColor=#000000;fontColor=#FFFFFF;fontSize=14;" vertex="1" parent="1">
+                    <mxGeometry x="50" y="-930" width="390" height="120" as="geometry"/>
+                </mxCell>
+                <mxCell id="34" value="&lt;div&gt;&amp;lt;Game&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &lt;font color=&quot;#00ff80&quot;&gt;ref={ setGameHandle }&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; ...&lt;/div&gt;&lt;div&gt;/&amp;gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;strokeWidth=18;align=left;fillColor=#000000;fontColor=#FFFFFF;fontSize=14;" vertex="1" parent="1">
+                    <mxGeometry x="50" y="-780" width="390" height="80" as="geometry"/>
+                </mxCell>
+            </root>
+        </mxGraphModel>
+    </diagram>
+</mxfile>
