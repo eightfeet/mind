@@ -1,0 +1,91 @@
+<mxfile host="65bd71144e">
+    <diagram id="vDk-3dCd-wP7hwEjbzUj" name="第 1 页">
+        <mxGraphModel dx="836" dy="645" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+            <root>
+                <mxCell id="0"/>
+                <mxCell id="1" parent="0"/>
+                <mxCell id="14" value="" style="edgeStyle=orthogonalEdgeStyle;html=1;strokeColor=default;" edge="1" parent="1" source="2" target="3">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="2" value="Module config&lt;br&gt;exposeFunctions" style="shape=tape;whiteSpace=wrap;html=1;strokeWidth=2;size=0.19" vertex="1" parent="1">
+                    <mxGeometry x="215" y="940" width="145" height="65" as="geometry"/>
+                </mxCell>
+                <mxCell id="7" value="是&lt;br&gt;（默认开启：&lt;span style=&quot;font-size: 12px ; background-color: rgb(248 , 249 , 250)&quot;&gt;presettable&lt;/span&gt;=true）" style="edgeStyle=orthogonalEdgeStyle;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;strokeColor=default;" edge="1" parent="1" source="3" target="5">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="8" value="" style="edgeStyle=orthogonalEdgeStyle;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;strokeColor=default;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="3" target="11">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="380" y="1109.5" as="targetPoint"/>
+                        <Array as="points"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="13" value="否&lt;br&gt;（&lt;span style=&quot;font-size: 12px ; background-color: rgb(248 , 249 , 250)&quot;&gt;presettable&lt;/span&gt;=false）" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="8">
+                    <mxGeometry x="0.2047" relative="1" as="geometry">
+                        <mxPoint as="offset"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="3" value="是否开启预设&lt;br&gt;presettable" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;" vertex="1" parent="1">
+                    <mxGeometry x="70" y="1060" width="100" height="100" as="geometry"/>
+                </mxCell>
+                <mxCell id="5" value="开启预设" style="whiteSpace=wrap;html=1;strokeWidth=2;" vertex="1" parent="1">
+                    <mxGeometry x="250" y="1207.5" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="11" value="不做预设" style="rounded=1;whiteSpace=wrap;html=1;arcSize=50;strokeWidth=2;" vertex="1" parent="1">
+                    <mxGeometry x="350" y="1090" width="90" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="18" style="edgeStyle=orthogonalEdgeStyle;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;strokeColor=default;" edge="1" parent="1" source="15" target="17">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="15" value="是否开启自定义预设&lt;br&gt;Module config&lt;br&gt;&lt;span style=&quot;text-align: left&quot;&gt;exposeDefaultProps.preset （默认不开启）&lt;/span&gt;" style="shape=tape;whiteSpace=wrap;html=1;strokeWidth=2;size=0.19" vertex="1" parent="1">
+                    <mxGeometry x="135" y="250" width="260" height="100" as="geometry"/>
+                </mxCell>
+                <mxCell id="16" value="&lt;h1&gt;Module预设&lt;/h1&gt;&lt;p&gt;组件的预设是为了对一些复杂配置的业务组件定义一个快捷配置的方式来方便用户使用，其本质就是在生命周期（exposeEvents）的mount事件中执行组件配置方法来设置组件；&lt;/p&gt;&lt;p&gt;预设分为自动预设和自定义预设两种方式&lt;/p&gt;&lt;p&gt;&lt;/p&gt;&lt;ul&gt;&lt;li&gt;默认使用自动预设；&lt;/li&gt;&lt;li&gt;用户可以根据业务组件的复杂程度来使用自定义预设，它的开启和关闭方式请在&lt;span style=&quot;text-align: center&quot;&gt;Module config文件中配置&lt;/span&gt;&amp;nbsp;exposeDefaultProps.preset = true/false，默认为true开启状态，开启自定义预设时程序将自动在Module目录下查询预设组件（Module.Preset）。&lt;br&gt;&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
+                    <mxGeometry x="30" y="30" width="650" height="240" as="geometry"/>
+                </mxCell>
+                <mxCell id="23" style="edgeStyle=orthogonalEdgeStyle;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;strokeColor=default;" edge="1" parent="1" source="17" target="22">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="26" value="否" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="23">
+                    <mxGeometry x="0.2846" y="-1" relative="1" as="geometry">
+                        <mxPoint as="offset"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="24" style="edgeStyle=orthogonalEdgeStyle;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;strokeColor=default;" edge="1" parent="1" source="17" target="21">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="27" value="是" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="24">
+                    <mxGeometry x="0.3256" y="1" relative="1" as="geometry">
+                        <mxPoint as="offset"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="17" value="是否开启" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;" vertex="1" parent="1">
+                    <mxGeometry x="215" y="380" width="100" height="100" as="geometry"/>
+                </mxCell>
+                <mxCell id="20" value="预设" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=120;strokeWidth=2;fillColor=#e51400;fontColor=#ffffff;strokeColor=#B20000;" vertex="1" parent="1">
+                    <mxGeometry x="210" y="680" width="120" height="50" as="geometry"/>
+                </mxCell>
+                <mxCell id="29" style="edgeStyle=orthogonalEdgeStyle;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;strokeColor=default;" edge="1" parent="1" source="21" target="20">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="21" value="自定义预设" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" vertex="1" parent="1">
+                    <mxGeometry x="350" y="550" width="120" height="50" as="geometry"/>
+                </mxCell>
+                <mxCell id="28" style="edgeStyle=orthogonalEdgeStyle;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;strokeColor=default;" edge="1" parent="1" source="22" target="20">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="22" value="自动预设" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" vertex="1" parent="1">
+                    <mxGeometry x="70" y="550" width="120" height="50" as="geometry"/>
+                </mxCell>
+                <mxCell id="30" value="" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.annotation_2;align=left;labelPosition=right;pointerEvents=1;fontColor=#E6E6E6;" vertex="1" parent="1">
+                    <mxGeometry x="470" y="440" width="30" height="270" as="geometry"/>
+                </mxCell>
+                <mxCell id="32" value="开启自定义预设时程序将自动在Module目录下查询预设组件（Module.Preset）&lt;br&gt;用户通过定义预设组件来高度定制组件&lt;br&gt;&lt;br&gt;&lt;div&gt;.Module&lt;/div&gt;&lt;div&gt;├── &lt;font color=&quot;#ff0000&quot;&gt;Module.Preset&lt;/font&gt;&lt;/div&gt;&lt;div&gt;├── Module.config.ts&lt;/div&gt;&lt;div&gt;├── Module.createStyles.ts&lt;/div&gt;&lt;div&gt;├── Module.tsx&lt;/div&gt;&lt;div&gt;└── index.ts&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;上下文将赋予组件Module.Preset&lt;/div&gt;&lt;div&gt;接收和修改当前组件“数据”的能力&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;通过props 和 context都可以获取当前组件数据&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+                    <mxGeometry x="500" y="450" width="220" height="250" as="geometry"/>
+                </mxCell>
+                <mxCell id="34" value="&lt;h1&gt;方法开启预设组件&lt;/h1&gt;&lt;p&gt;组件方法是否开放预设功能，方法的预设功能通常是用于对组件的初始化，当有些方法不适合在预设中展示时可以通过exportFunctions.presettable=false来关闭&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;fontColor=#33001A;" vertex="1" parent="1">
+                    <mxGeometry x="30" y="780" width="250" height="120" as="geometry"/>
+                </mxCell>
+            </root>
+        </mxGraphModel>
+    </diagram>
+</mxfile>
