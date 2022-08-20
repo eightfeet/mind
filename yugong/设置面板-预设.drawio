@@ -1,0 +1,48 @@
+<mxfile host="65bd71144e">
+    <diagram id="ZeXX3TnM81a_D-Jj2JsT" name="第 1 页">
+        <mxGraphModel dx="817" dy="673" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+            <root>
+                <mxCell id="0"/>
+                <mxCell id="1" parent="0"/>
+                <mxCell id="2" value="&lt;h1&gt;组件预设&lt;/h1&gt;&lt;div&gt;src/components/MiniDashboard/Presetting&lt;br&gt;&lt;/div&gt;&lt;p&gt;组件预设是指对组件的初始化设置，组件预设为模块提供一个更快捷更人性化的设置通道；&lt;/p&gt;&lt;p&gt;&lt;span&gt;其本质还是EventEmitter对事件流的控制；&lt;br&gt;组件的&lt;/span&gt;&lt;span&gt;预设方法其实是当前组件在&lt;/span&gt;EventEmitter中注册&lt;span&gt;的方法；同时在组件的挂载事件（mount）中调用；作为预设只操作当前组建内置方法；&lt;/span&gt;&lt;/p&gt;原则上所有默认静态方法（exposeFunctions）都将展示在预设面板上，但也提供关闭功能element.presettable=false时关闭当前静态方法的预设，此静态方法将不在预设面板上显示" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
+                    <mxGeometry x="10" y="10" width="420" height="270" as="geometry"/>
+                </mxCell>
+                <mxCell id="3" value="EventEmitter" style="sketch=0;html=1;fillColor=#5184F3;strokeColor=none;verticalAlign=top;labelPosition=center;verticalLabelPosition=bottom;align=center;spacingTop=-6;fontSize=11;fontStyle=1;fontColor=#999999;shape=mxgraph.gcp2.hexIcon;prIcon=stackdriver" vertex="1" parent="1">
+                    <mxGeometry x="520" y="80" width="66" height="58.5" as="geometry"/>
+                </mxCell>
+                <mxCell id="4" value="" style="group" vertex="1" connectable="0" parent="1">
+                    <mxGeometry x="60" y="160" width="600" height="410" as="geometry"/>
+                </mxCell>
+                <mxCell id="5" value="exportFunctions" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" vertex="1" parent="4">
+                    <mxGeometry y="180" width="210" height="80" as="geometry"/>
+                </mxCell>
+                <mxCell id="6" style="edgeStyle=orthogonalEdgeStyle;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="4" source="7">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="495" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="7" value="AppData" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" vertex="1" parent="4">
+                    <mxGeometry x="390" y="70" width="210" height="80" as="geometry"/>
+                </mxCell>
+                <mxCell id="8" style="edgeStyle=orthogonalEdgeStyle;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="4" source="9" target="7">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="9" value="AppData[module].events.mount" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" vertex="1" parent="4">
+                    <mxGeometry x="390" y="180" width="210" height="80" as="geometry"/>
+                </mxCell>
+                <mxCell id="10" value="static" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="4">
+                    <mxGeometry x="70" y="130" width="60" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="11" style="edgeStyle=orthogonalEdgeStyle;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="4" source="12" target="9">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="12" value="[&lt;br&gt;&lt;blockquote style=&quot;margin: 0 0 0 40px ; border: none ; padding: 0px&quot;&gt;{&lt;br&gt;&lt;span style=&quot;color: rgb(0 , 43 , 54) ; font-family: monospace ; font-size: 14px ; letter-spacing: 0.5px ; background-color: rgb(255 , 255 , 255)&quot;&gt;&amp;nbsp; name: id/functionName,&lt;br&gt;&lt;/span&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp;arguments: [......]&lt;br&gt;}&lt;/blockquote&gt;&lt;blockquote style=&quot;margin: 0 0 0 40px ; border: none ; padding: 0px&quot;&gt;......&lt;/blockquote&gt;]" style="rounded=1;whiteSpace=wrap;html=1;align=left;spacing=16;" vertex="1" parent="4">
+                    <mxGeometry x="150" y="290" width="320" height="120" as="geometry"/>
+                </mxCell>
+                <mxCell id="13" style="edgeStyle=orthogonalEdgeStyle;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="4" source="5" target="12">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+            </root>
+        </mxGraphModel>
+    </diagram>
+</mxfile>
