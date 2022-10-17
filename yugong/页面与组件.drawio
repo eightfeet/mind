@@ -1,75 +1,93 @@
 <mxfile host="65bd71144e">
     <diagram id="Oqp878QnOyq6E4KIyiQY" name="第 1 页">
-        <mxGraphModel dx="797" dy="904" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+        <mxGraphModel dx="1074" dy="869" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
             <root>
                 <mxCell id="0"/>
                 <mxCell id="1" parent="0"/>
-                <mxCell id="19" style="edgeStyle=entityRelationEdgeStyle;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;fontColor=#007FFF;endArrow=classic;endFill=1;strokeColor=#007FFF;jumpStyle=line;jumpSize=0;fontSize=16;" edge="1" parent="1" source="6" target="18">
+                <mxCell id="19" style="edgeStyle=entityRelationEdgeStyle;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;fontColor=#007FFF;endArrow=classic;endFill=1;strokeColor=#007FFF;jumpStyle=line;jumpSize=0;fontSize=16;" parent="1" source="6" target="18" edge="1">
                     <mxGeometry relative="1" as="geometry"/>
                 </mxCell>
-                <mxCell id="21" style="edgeStyle=entityRelationEdgeStyle;jumpStyle=line;jumpSize=0;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;fontColor=#007FFF;endArrow=classic;endFill=1;strokeColor=#007FFF;fontSize=16;" edge="1" parent="1" source="6" target="20">
+                <mxCell id="21" style="edgeStyle=entityRelationEdgeStyle;jumpStyle=line;jumpSize=0;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;fontColor=#007FFF;endArrow=classic;endFill=1;strokeColor=#007FFF;fontSize=16;" parent="1" source="6" target="20" edge="1">
                     <mxGeometry relative="1" as="geometry"/>
                 </mxCell>
-                <mxCell id="22" style="edgeStyle=entityRelationEdgeStyle;jumpStyle=line;jumpSize=0;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;fontColor=#007FFF;endArrow=classic;endFill=1;strokeColor=#007FFF;entryX=0;entryY=1;entryDx=0;entryDy=0;fontSize=16;" edge="1" parent="1" source="6" target="23">
+                <mxCell id="22" style="edgeStyle=entityRelationEdgeStyle;jumpStyle=line;jumpSize=0;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;fontColor=#007FFF;endArrow=classic;endFill=1;strokeColor=#007FFF;entryX=0;entryY=1;entryDx=0;entryDy=0;fontSize=16;" parent="1" source="6" target="23" edge="1">
                     <mxGeometry relative="1" as="geometry">
                         <mxPoint x="430" y="200" as="targetPoint"/>
                     </mxGeometry>
                 </mxCell>
-                <mxCell id="25" style="edgeStyle=entityRelationEdgeStyle;jumpStyle=line;jumpSize=0;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=1;entryDx=0;entryDy=0;fontColor=#007FFF;endArrow=classic;endFill=1;strokeColor=#007FFF;fontSize=16;" edge="1" parent="1" source="6" target="24">
+                <mxCell id="25" style="edgeStyle=entityRelationEdgeStyle;jumpStyle=line;jumpSize=0;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=1;entryDx=0;entryDy=0;fontColor=#007FFF;endArrow=classic;endFill=1;strokeColor=#007FFF;fontSize=16;" parent="1" source="6" target="24" edge="1">
                     <mxGeometry relative="1" as="geometry"/>
                 </mxCell>
-                <mxCell id="6" value="页面" style="whiteSpace=wrap;html=1;rounded=1;arcSize=50;align=center;verticalAlign=middle;strokeWidth=1;autosize=1;spacing=4;treeFolding=1;treeMoving=1;newEdgeStyle={&quot;edgeStyle&quot;:&quot;entityRelationEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;,&quot;segment&quot;:10,&quot;curved&quot;:1};labelBackgroundColor=none;fontColor=#007FFF;labelBorderColor=none;strokeColor=#007FFF;fontSize=16;" vertex="1" parent="1">
+                <mxCell id="6" value="页面" style="whiteSpace=wrap;html=1;rounded=1;arcSize=50;align=center;verticalAlign=middle;strokeWidth=1;autosize=1;spacing=4;treeFolding=1;treeMoving=1;newEdgeStyle={&quot;edgeStyle&quot;:&quot;entityRelationEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;,&quot;segment&quot;:10,&quot;curved&quot;:1};labelBackgroundColor=none;fontColor=#007FFF;labelBorderColor=none;strokeColor=#007FFF;fontSize=16;" parent="1" vertex="1">
                     <mxGeometry x="285" y="130" width="70" height="30" as="geometry"/>
                 </mxCell>
-                <mxCell id="7" value="" style="edgeStyle=elbowEdgeStyle;startArrow=none;endArrow=classic;segment=10;strokeColor=#007FFF;endFill=1;exitX=1;exitY=0.25;exitDx=0;exitDy=0;fontSize=16;" edge="1" target="6" parent="1" source="8">
+                <mxCell id="7" value="" style="edgeStyle=elbowEdgeStyle;startArrow=none;endArrow=classic;segment=10;strokeColor=#007FFF;endFill=1;exitX=1;exitY=0.25;exitDx=0;exitDy=0;fontSize=16;" parent="1" source="8" target="6" edge="1">
                     <mxGeometry relative="1" as="geometry">
                         <mxPoint x="230" y="170" as="sourcePoint"/>
                     </mxGeometry>
                 </mxCell>
-                <mxCell id="8" value="page" style="swimlane;labelBackgroundColor=none;labelBorderColor=none;fontColor=#007FFF;strokeColor=#007FFF;fontSize=16;" vertex="1" parent="1">
+                <mxCell id="8" value="page" style="swimlane;labelBackgroundColor=none;labelBorderColor=none;fontColor=#007FFF;strokeColor=#007FFF;fontSize=16;" parent="1" vertex="1">
                     <mxGeometry x="60" y="170" width="160" height="140" as="geometry"/>
                 </mxCell>
-                <mxCell id="9" value="" style="sketch=0;html=1;fillColor=#5184F3;strokeColor=none;verticalAlign=top;labelPosition=center;verticalLabelPosition=bottom;align=center;spacingTop=-6;fontSize=16;fontStyle=1;fontColor=#999999;shape=mxgraph.gcp2.hexIcon;prIcon=stackdriver;labelBackgroundColor=none;labelBorderColor=none;" vertex="1" parent="8">
+                <mxCell id="9" value="" style="sketch=0;html=1;fillColor=#5184F3;strokeColor=none;verticalAlign=top;labelPosition=center;verticalLabelPosition=bottom;align=center;spacingTop=-6;fontSize=16;fontStyle=1;fontColor=#999999;shape=mxgraph.gcp2.hexIcon;prIcon=stackdriver;labelBackgroundColor=none;labelBorderColor=none;" parent="8" vertex="1">
                     <mxGeometry x="10" y="48" width="66" height="58.5" as="geometry"/>
                 </mxCell>
-                <mxCell id="12" value="" style="sketch=0;html=1;fillColor=#5184F3;strokeColor=none;verticalAlign=top;labelPosition=center;verticalLabelPosition=bottom;align=center;spacingTop=-6;fontSize=16;fontStyle=1;fontColor=#999999;shape=mxgraph.gcp2.hexIcon;prIcon=stackdriver;labelBackgroundColor=none;labelBorderColor=none;" vertex="1" parent="8">
+                <mxCell id="12" value="" style="sketch=0;html=1;fillColor=#5184F3;strokeColor=none;verticalAlign=top;labelPosition=center;verticalLabelPosition=bottom;align=center;spacingTop=-6;fontSize=16;fontStyle=1;fontColor=#999999;shape=mxgraph.gcp2.hexIcon;prIcon=stackdriver;labelBackgroundColor=none;labelBorderColor=none;" parent="8" vertex="1">
                     <mxGeometry x="80" y="48" width="66" height="58.5" as="geometry"/>
                 </mxCell>
-                <mxCell id="29" style="edgeStyle=entityRelationEdgeStyle;jumpStyle=line;jumpSize=0;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=1;entryDx=0;entryDy=0;fontColor=#007FFF;endArrow=classic;endFill=1;strokeColor=#007FFF;fontSize=16;" edge="1" parent="1" source="14" target="26">
+                <mxCell id="29" style="edgeStyle=entityRelationEdgeStyle;jumpStyle=line;jumpSize=0;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=1;entryDx=0;entryDy=0;fontColor=#007FFF;endArrow=classic;endFill=1;strokeColor=#007FFF;fontSize=16;" parent="1" source="14" target="26" edge="1">
                     <mxGeometry relative="1" as="geometry"/>
                 </mxCell>
-                <mxCell id="30" style="edgeStyle=entityRelationEdgeStyle;jumpStyle=line;jumpSize=0;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=1;entryDx=0;entryDy=0;fontColor=#007FFF;endArrow=classic;endFill=1;strokeColor=#007FFF;fontSize=16;" edge="1" parent="1" source="14" target="27">
+                <mxCell id="30" style="edgeStyle=entityRelationEdgeStyle;jumpStyle=line;jumpSize=0;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=1;entryDx=0;entryDy=0;fontColor=#007FFF;endArrow=classic;endFill=1;strokeColor=#007FFF;fontSize=16;" parent="1" source="14" target="27" edge="1">
                     <mxGeometry relative="1" as="geometry"/>
                 </mxCell>
-                <mxCell id="31" style="edgeStyle=entityRelationEdgeStyle;jumpStyle=line;jumpSize=0;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=1;entryDx=0;entryDy=0;fontColor=#007FFF;endArrow=classic;endFill=1;strokeColor=#007FFF;fontSize=16;" edge="1" parent="1" source="14" target="28">
+                <mxCell id="31" style="edgeStyle=entityRelationEdgeStyle;jumpStyle=line;jumpSize=0;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=1;entryDx=0;entryDy=0;fontColor=#007FFF;endArrow=classic;endFill=1;strokeColor=#007FFF;fontSize=16;" parent="1" source="14" target="28" edge="1">
                     <mxGeometry relative="1" as="geometry"/>
                 </mxCell>
-                <mxCell id="14" value="组件" style="whiteSpace=wrap;html=1;rounded=1;arcSize=50;align=center;verticalAlign=middle;strokeWidth=1;autosize=1;spacing=4;treeFolding=1;treeMoving=1;newEdgeStyle={&quot;edgeStyle&quot;:&quot;entityRelationEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;,&quot;segment&quot;:10,&quot;curved&quot;:1};labelBackgroundColor=none;fontColor=#007FFF;labelBorderColor=none;strokeColor=#007FFF;fontSize=16;" vertex="1" parent="1">
-                    <mxGeometry x="285" y="290" width="70" height="30" as="geometry"/>
+                <mxCell id="14" value="组件" style="whiteSpace=wrap;html=1;rounded=1;arcSize=50;align=center;verticalAlign=middle;strokeWidth=1;autosize=1;spacing=4;treeFolding=1;treeMoving=1;newEdgeStyle={&quot;edgeStyle&quot;:&quot;entityRelationEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;,&quot;segment&quot;:10,&quot;curved&quot;:1};labelBackgroundColor=none;fontColor=#007FFF;labelBorderColor=none;strokeColor=#007FFF;fontSize=16;" parent="1" vertex="1">
+                    <mxGeometry x="285" y="350" width="70" height="30" as="geometry"/>
                 </mxCell>
-                <mxCell id="15" style="edgeStyle=elbowEdgeStyle;html=1;exitX=0.825;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontColor=#007FFF;endArrow=classic;endFill=1;strokeColor=#007FFF;fontSize=16;" edge="1" parent="1" source="12" target="14">
+                <mxCell id="15" style="edgeStyle=elbowEdgeStyle;html=1;exitX=0.825;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontColor=#007FFF;endArrow=classic;endFill=1;strokeColor=#007FFF;fontSize=16;" parent="1" source="12" target="14" edge="1">
                     <mxGeometry relative="1" as="geometry"/>
                 </mxCell>
-                <mxCell id="18" value="页面事件（与组件通信）" style="whiteSpace=wrap;html=1;shape=partialRectangle;top=0;left=0;bottom=1;right=0;points=[[0,1],[1,1]];fillColor=none;align=center;verticalAlign=bottom;routingCenterY=0.5;snapToPoint=1;recursiveResize=0;autosize=1;treeFolding=1;treeMoving=1;newEdgeStyle={&quot;edgeStyle&quot;:&quot;entityRelationEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;,&quot;segment&quot;:10,&quot;curved&quot;:1};labelBackgroundColor=none;labelBorderColor=none;fontColor=#007FFF;strokeColor=#007FFF;fontSize=16;" vertex="1" parent="1">
+                <mxCell id="18" value="页面事件（与组件通信）" style="whiteSpace=wrap;html=1;shape=partialRectangle;top=0;left=0;bottom=1;right=0;points=[[0,1],[1,1]];fillColor=none;align=center;verticalAlign=bottom;routingCenterY=0.5;snapToPoint=1;recursiveResize=0;autosize=1;treeFolding=1;treeMoving=1;newEdgeStyle={&quot;edgeStyle&quot;:&quot;entityRelationEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;,&quot;segment&quot;:10,&quot;curved&quot;:1};labelBackgroundColor=none;labelBorderColor=none;fontColor=#007FFF;strokeColor=#007FFF;fontSize=16;" parent="1" vertex="1">
                     <mxGeometry x="465" y="100" width="210" height="20" as="geometry"/>
                 </mxCell>
-                <mxCell id="20" value="基本信息（标题、尺寸、栅格、背景）" style="whiteSpace=wrap;html=1;shape=partialRectangle;top=0;left=0;bottom=1;right=0;points=[[0,1],[1,1]];fillColor=none;align=center;verticalAlign=bottom;routingCenterY=0.5;snapToPoint=1;recursiveResize=0;autosize=1;treeFolding=1;treeMoving=1;newEdgeStyle={&quot;edgeStyle&quot;:&quot;entityRelationEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;,&quot;segment&quot;:10,&quot;curved&quot;:1};labelBackgroundColor=none;labelBorderColor=none;fontColor=#007FFF;strokeColor=#007FFF;fontSize=16;" vertex="1" parent="1">
+                <mxCell id="20" value="基本信息（标题、尺寸、栅格、背景）" style="whiteSpace=wrap;html=1;shape=partialRectangle;top=0;left=0;bottom=1;right=0;points=[[0,1],[1,1]];fillColor=none;align=center;verticalAlign=bottom;routingCenterY=0.5;snapToPoint=1;recursiveResize=0;autosize=1;treeFolding=1;treeMoving=1;newEdgeStyle={&quot;edgeStyle&quot;:&quot;entityRelationEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;,&quot;segment&quot;:10,&quot;curved&quot;:1};labelBackgroundColor=none;labelBorderColor=none;fontColor=#007FFF;strokeColor=#007FFF;fontSize=16;" parent="1" vertex="1">
                     <mxGeometry x="465" y="50" width="300" height="20" as="geometry"/>
                 </mxCell>
-                <mxCell id="23" value="线程（与一组组件通信）" style="whiteSpace=wrap;html=1;shape=partialRectangle;top=0;left=0;bottom=1;right=0;points=[[0,1],[1,1]];fillColor=none;align=center;verticalAlign=bottom;routingCenterY=0.5;snapToPoint=1;recursiveResize=0;autosize=1;treeFolding=1;treeMoving=1;newEdgeStyle={&quot;edgeStyle&quot;:&quot;entityRelationEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;,&quot;segment&quot;:10,&quot;curved&quot;:1};labelBackgroundColor=none;labelBorderColor=none;fontColor=#007FFF;strokeColor=#007FFF;fontSize=16;" vertex="1" parent="1">
+                <mxCell id="23" value="线程（与若干组件通信）" style="whiteSpace=wrap;html=1;shape=partialRectangle;top=0;left=0;bottom=1;right=0;points=[[0,1],[1,1]];fillColor=none;align=center;verticalAlign=bottom;routingCenterY=0.5;snapToPoint=1;recursiveResize=0;autosize=1;treeFolding=1;treeMoving=1;newEdgeStyle={&quot;edgeStyle&quot;:&quot;entityRelationEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;,&quot;segment&quot;:10,&quot;curved&quot;:1};labelBackgroundColor=none;labelBorderColor=none;fontColor=#007FFF;strokeColor=#007FFF;fontSize=16;" parent="1" vertex="1">
                     <mxGeometry x="465" y="150" width="210" height="20" as="geometry"/>
                 </mxCell>
-                <mxCell id="24" value="定义数据统计" style="whiteSpace=wrap;html=1;shape=partialRectangle;top=0;left=0;bottom=1;right=0;points=[[0,1],[1,1]];fillColor=none;align=center;verticalAlign=bottom;routingCenterY=0.5;snapToPoint=1;recursiveResize=0;autosize=1;treeFolding=1;treeMoving=1;newEdgeStyle={&quot;edgeStyle&quot;:&quot;entityRelationEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;,&quot;segment&quot;:10,&quot;curved&quot;:1};labelBackgroundColor=none;labelBorderColor=none;fontColor=#007FFF;strokeColor=#007FFF;fontSize=16;" vertex="1" parent="1">
+                <mxCell id="24" value="定义数据统计" style="whiteSpace=wrap;html=1;shape=partialRectangle;top=0;left=0;bottom=1;right=0;points=[[0,1],[1,1]];fillColor=none;align=center;verticalAlign=bottom;routingCenterY=0.5;snapToPoint=1;recursiveResize=0;autosize=1;treeFolding=1;treeMoving=1;newEdgeStyle={&quot;edgeStyle&quot;:&quot;entityRelationEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;,&quot;segment&quot;:10,&quot;curved&quot;:1};labelBackgroundColor=none;labelBorderColor=none;fontColor=#007FFF;strokeColor=#007FFF;fontSize=16;" parent="1" vertex="1">
                     <mxGeometry x="465" y="200" width="130" height="20" as="geometry"/>
                 </mxCell>
-                <mxCell id="26" value="事件（挂载、卸载、其他）" style="whiteSpace=wrap;html=1;shape=partialRectangle;top=0;left=0;bottom=1;right=0;points=[[0,1],[1,1]];fillColor=none;align=center;verticalAlign=bottom;routingCenterY=0.5;snapToPoint=1;recursiveResize=0;autosize=1;treeFolding=1;treeMoving=1;newEdgeStyle={&quot;edgeStyle&quot;:&quot;entityRelationEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;,&quot;segment&quot;:10,&quot;curved&quot;:1};labelBackgroundColor=none;labelBorderColor=none;fontColor=#007FFF;strokeColor=#007FFF;fontSize=16;" vertex="1" parent="1">
-                    <mxGeometry x="465" y="260" width="220" height="20" as="geometry"/>
+                <mxCell id="26" value="事件（挂载、卸载、其他）" style="whiteSpace=wrap;html=1;shape=partialRectangle;top=0;left=0;bottom=1;right=0;points=[[0,1],[1,1]];fillColor=none;align=center;verticalAlign=bottom;routingCenterY=0.5;snapToPoint=1;recursiveResize=0;autosize=1;treeFolding=1;treeMoving=1;newEdgeStyle={&quot;edgeStyle&quot;:&quot;entityRelationEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;,&quot;segment&quot;:10,&quot;curved&quot;:1};labelBackgroundColor=none;labelBorderColor=none;fontColor=#007FFF;strokeColor=#007FFF;fontSize=16;" parent="1" vertex="1">
+                    <mxGeometry x="465" y="300" width="220" height="20" as="geometry"/>
                 </mxCell>
-                <mxCell id="27" value="样式" style="whiteSpace=wrap;html=1;shape=partialRectangle;top=0;left=0;bottom=1;right=0;points=[[0,1],[1,1]];fillColor=none;align=center;verticalAlign=bottom;routingCenterY=0.5;snapToPoint=1;recursiveResize=0;autosize=1;treeFolding=1;treeMoving=1;newEdgeStyle={&quot;edgeStyle&quot;:&quot;entityRelationEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;,&quot;segment&quot;:10,&quot;curved&quot;:1};labelBackgroundColor=none;labelBorderColor=none;fontColor=#007FFF;strokeColor=#007FFF;fontSize=16;" vertex="1" parent="1">
-                    <mxGeometry x="465" y="300" width="60" height="20" as="geometry"/>
+                <mxCell id="27" value="样式" style="whiteSpace=wrap;html=1;shape=partialRectangle;top=0;left=0;bottom=1;right=0;points=[[0,1],[1,1]];fillColor=none;align=center;verticalAlign=bottom;routingCenterY=0.5;snapToPoint=1;recursiveResize=0;autosize=1;treeFolding=1;treeMoving=1;newEdgeStyle={&quot;edgeStyle&quot;:&quot;entityRelationEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;,&quot;segment&quot;:10,&quot;curved&quot;:1};labelBackgroundColor=none;labelBorderColor=none;fontColor=#007FFF;strokeColor=#007FFF;fontSize=16;" parent="1" vertex="1">
+                    <mxGeometry x="465" y="380" width="60" height="20" as="geometry"/>
                 </mxCell>
-                <mxCell id="28" value="Api数据" style="whiteSpace=wrap;html=1;shape=partialRectangle;top=0;left=0;bottom=1;right=0;points=[[0,1],[1,1]];fillColor=none;align=center;verticalAlign=bottom;routingCenterY=0.5;snapToPoint=1;recursiveResize=0;autosize=1;treeFolding=1;treeMoving=1;newEdgeStyle={&quot;edgeStyle&quot;:&quot;entityRelationEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;,&quot;segment&quot;:10,&quot;curved&quot;:1};labelBackgroundColor=none;labelBorderColor=none;fontColor=#007FFF;strokeColor=#007FFF;fontSize=16;" vertex="1" parent="1">
-                    <mxGeometry x="465" y="340" width="90" height="20" as="geometry"/>
+                <mxCell id="28" value="Api数据" style="whiteSpace=wrap;html=1;shape=partialRectangle;top=0;left=0;bottom=1;right=0;points=[[0,1],[1,1]];fillColor=none;align=center;verticalAlign=bottom;routingCenterY=0.5;snapToPoint=1;recursiveResize=0;autosize=1;treeFolding=1;treeMoving=1;newEdgeStyle={&quot;edgeStyle&quot;:&quot;entityRelationEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;,&quot;segment&quot;:10,&quot;curved&quot;:1};labelBackgroundColor=none;labelBorderColor=none;fontColor=#007FFF;strokeColor=#007FFF;fontSize=16;" parent="1" vertex="1">
+                    <mxGeometry x="465" y="420" width="90" height="20" as="geometry"/>
+                </mxCell>
+                <mxCell id="32" value="方法" style="whiteSpace=wrap;html=1;shape=partialRectangle;top=0;left=0;bottom=1;right=0;points=[[0,1],[1,1]];fillColor=none;align=center;verticalAlign=bottom;routingCenterY=0.5;snapToPoint=1;recursiveResize=0;autosize=1;treeFolding=1;treeMoving=1;newEdgeStyle={&quot;edgeStyle&quot;:&quot;entityRelationEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;,&quot;segment&quot;:10,&quot;curved&quot;:1};labelBackgroundColor=none;labelBorderColor=none;fontColor=#007FFF;strokeColor=#007FFF;fontSize=16;" vertex="1" parent="1">
+                    <mxGeometry x="465" y="340" width="60" height="20" as="geometry"/>
+                </mxCell>
+                <mxCell id="34" style="edgeStyle=entityRelationEdgeStyle;jumpStyle=line;jumpSize=0;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=1;entryDx=0;entryDy=0;fontColor=#007FFF;endArrow=classic;endFill=1;strokeColor=#007FFF;fontSize=16;" edge="1" parent="1" source="14" target="32">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="365" y="315" as="sourcePoint"/>
+                        <mxPoint x="474.9999999999998" y="290" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="35" value="定义数据统计" style="whiteSpace=wrap;html=1;shape=partialRectangle;top=0;left=0;bottom=1;right=0;points=[[0,1],[1,1]];fillColor=none;align=center;verticalAlign=bottom;routingCenterY=0.5;snapToPoint=1;recursiveResize=0;autosize=1;treeFolding=1;treeMoving=1;newEdgeStyle={&quot;edgeStyle&quot;:&quot;entityRelationEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;,&quot;segment&quot;:10,&quot;curved&quot;:1};labelBackgroundColor=none;labelBorderColor=none;fontColor=#007FFF;strokeColor=#007FFF;fontSize=16;" vertex="1" parent="1">
+                    <mxGeometry x="465" y="250" width="130" height="20" as="geometry"/>
+                </mxCell>
+                <mxCell id="37" style="edgeStyle=entityRelationEdgeStyle;jumpStyle=line;jumpSize=0;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=1;entryDx=0;entryDy=0;fontColor=#007FFF;endArrow=classic;endFill=1;strokeColor=#007FFF;fontSize=16;" edge="1" parent="1" source="6" target="35">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="365" y="155" as="sourcePoint"/>
+                        <mxPoint x="475" y="230" as="targetPoint"/>
+                    </mxGeometry>
                 </mxCell>
             </root>
         </mxGraphModel>
