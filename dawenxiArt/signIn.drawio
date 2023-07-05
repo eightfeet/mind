@@ -1,0 +1,165 @@
+<mxfile host="65bd71144e">
+    <diagram id="mZCeoy5HxnkOmwRIwpXq" name="第 1 页">
+        <mxGraphModel dx="1244" dy="848" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+            <root>
+                <mxCell id="0"/>
+                <mxCell id="1" parent="0"/>
+                <mxCell id="2" value="&lt;h1&gt;激活&lt;/h1&gt;&lt;p&gt;激活流程&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
+                    <mxGeometry x="40" y="30" width="190" height="120" as="geometry"/>
+                </mxCell>
+                <mxCell id="10" value="" style="edgeStyle=none;html=1;" edge="1" parent="1" source="3" target="9">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="3" value="用户名、激活码" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="220" y="130" width="280" height="120" as="geometry"/>
+                </mxCell>
+                <mxCell id="8" value="validateSn" style="swimlane;horizontal=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="100" y="300" width="710" height="920" as="geometry">
+                        <mxRectangle x="100" y="300" width="40" height="90" as="alternateBounds"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="15" style="edgeStyle=none;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="8" source="9" target="11">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="9" value="decodeSn" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="8">
+                    <mxGeometry x="190" y="40" width="140" height="50" as="geometry"/>
+                </mxCell>
+                <mxCell id="18" value="" style="edgeStyle=none;html=1;" edge="1" parent="8" source="11" target="17">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="11" value="序列号(lice) 日期(days)" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="8">
+                    <mxGeometry x="190" y="130" width="140" height="50" as="geometry"/>
+                </mxCell>
+                <mxCell id="30" value="是" style="edgeStyle=orthogonalEdgeStyle;html=1;" edge="1" parent="8" source="17" target="29">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="38" value="" style="edgeStyle=orthogonalEdgeStyle;html=1;" edge="1" parent="8" source="17" target="37">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="39" value="否" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="38">
+                    <mxGeometry x="-0.2571" y="2" relative="1" as="geometry">
+                        <mxPoint as="offset"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="17" value="validateLicense&lt;br&gt;验证合法" style="rhombus;whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="8">
+                    <mxGeometry x="195" y="200" width="130" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="32" value="是" style="edgeStyle=orthogonalEdgeStyle;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="8" source="29" target="35">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="370" y="350" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="62" value="否" style="edgeStyle=orthogonalEdgeStyle;html=1;" edge="1" parent="8" source="29" target="61">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="29" value="是否已绑定" style="rhombus;whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="8">
+                    <mxGeometry x="195" y="310" width="130" height="80" as="geometry"/>
+                </mxCell>
+                <mxCell id="34" value="" style="edgeStyle=orthogonalEdgeStyle;html=1;" edge="1" parent="8" target="33">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="490" y="350" as="sourcePoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="36" value="是" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="34">
+                    <mxGeometry x="-0.14" y="-1" relative="1" as="geometry">
+                        <mxPoint x="7" y="-1" as="offset"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="33" value="激活码已过期" style="ellipse;whiteSpace=wrap;html=1;rounded=0;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="8">
+                    <mxGeometry x="570" y="310" width="80" height="80" as="geometry"/>
+                </mxCell>
+                <mxCell id="44" value="否" style="edgeStyle=orthogonalEdgeStyle;html=1;" edge="1" parent="8" source="35" target="43">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="35" value="获取绑定时间&lt;br&gt;检查是否过期" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="8">
+                    <mxGeometry x="390" y="310" width="120" height="80" as="geometry"/>
+                </mxCell>
+                <mxCell id="37" value="激活码不正确" style="ellipse;whiteSpace=wrap;html=1;rounded=0;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="8">
+                    <mxGeometry x="430" y="190" width="80" height="80" as="geometry"/>
+                </mxCell>
+                <mxCell id="53" value="" style="edgeStyle=orthogonalEdgeStyle;html=1;" edge="1" parent="8" source="43" target="52">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="54" value="否" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="53">
+                    <mxGeometry x="-0.0267" relative="1" as="geometry">
+                        <mxPoint x="1" as="offset"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="43" value="是否微信环境" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="8">
+                    <mxGeometry x="390" y="440" width="120" height="80" as="geometry"/>
+                </mxCell>
+                <mxCell id="56" value="" style="edgeStyle=orthogonalEdgeStyle;html=1;" edge="1" parent="8" source="45" target="55">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="57" value="是" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="56">
+                    <mxGeometry x="-0.0807" relative="1" as="geometry">
+                        <mxPoint as="offset"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="59" value="" style="edgeStyle=orthogonalEdgeStyle;html=1;" edge="1" parent="8" source="45" target="58">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="60" value="否" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="59">
+                    <mxGeometry x="-0.1619" y="-1" relative="1" as="geometry">
+                        <mxPoint as="offset"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="45" value="比对openid" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="8">
+                    <mxGeometry x="385" y="580" width="130" height="80" as="geometry"/>
+                </mxCell>
+                <mxCell id="46" value="是" style="edgeStyle=orthogonalEdgeStyle;html=1;" edge="1" parent="8" source="43" target="45">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="52" value="获取激活信息&lt;br&gt;激活产品" style="ellipse;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="8">
+                    <mxGeometry x="610" y="440" width="80" height="80" as="geometry"/>
+                </mxCell>
+                <mxCell id="55" value="获取激活信息&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;激活产品" style="ellipse;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="8">
+                    <mxGeometry x="610" y="580" width="80" height="80" as="geometry"/>
+                </mxCell>
+                <mxCell id="58" value="激活码&lt;br&gt;仅限本人&lt;br&gt;使用" style="ellipse;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="8">
+                    <mxGeometry x="410" y="730" width="80" height="80" as="geometry"/>
+                </mxCell>
+                <mxCell id="64" value="" style="edgeStyle=orthogonalEdgeStyle;html=1;" edge="1" parent="8" source="61" target="63">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="61" value="创建memberId(md5)" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="8">
+                    <mxGeometry x="200" y="450" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="66" value="" style="edgeStyle=orthogonalEdgeStyle;html=1;" edge="1" parent="8" source="63" target="65">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="67" value="是" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="66">
+                    <mxGeometry x="-0.1704" y="4" relative="1" as="geometry">
+                        <mxPoint as="offset"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="69" value="" style="edgeStyle=orthogonalEdgeStyle;html=1;" edge="1" parent="8" source="63" target="68">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="70" value="否" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="69">
+                    <mxGeometry x="-0.2296" y="4" relative="1" as="geometry">
+                        <mxPoint as="offset"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="63" value="是否微信环境" style="rhombus;whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="8">
+                    <mxGeometry x="200" y="540" width="120" height="80" as="geometry"/>
+                </mxCell>
+                <mxCell id="71" style="edgeStyle=orthogonalEdgeStyle;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="8" source="65" target="68">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="65" value="绑定openid" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="8">
+                    <mxGeometry x="60" y="630" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="73" value="" style="edgeStyle=orthogonalEdgeStyle;html=1;" edge="1" parent="8" source="68" target="72">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="68" value="绑定激活关系&lt;br&gt;记录开始时间" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="8">
+                    <mxGeometry x="200" y="710" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="72" value="激活产品" style="ellipse;whiteSpace=wrap;html=1;rounded=0;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="8">
+                    <mxGeometry x="220" y="810" width="80" height="80" as="geometry"/>
+                </mxCell>
+            </root>
+        </mxGraphModel>
+    </diagram>
+</mxfile>
