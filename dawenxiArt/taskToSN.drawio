@@ -1,0 +1,89 @@
+<mxfile host="65bd71144e">
+    <diagram id="Wu6B9Isd45Zp-iOkZxNN" name="第 1 页">
+        <mxGraphModel dx="748" dy="579" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+            <root>
+                <mxCell id="0"/>
+                <mxCell id="1" parent="0"/>
+                <mxCell id="2" value="&lt;h1&gt;达成任务转换为序列号&lt;/h1&gt;&lt;p&gt;/**&lt;/p&gt;&lt;p&gt;&amp;nbsp;* 根据任务id给会员发放奖励&lt;/p&gt;&lt;p&gt;&amp;nbsp;* @param {string} member_id 会员id&lt;/p&gt;&lt;p&gt;&amp;nbsp;* @param {string} task_id 任务id&lt;/p&gt;&lt;p&gt;&amp;nbsp;* @param {string} username 会员名&lt;/p&gt;&lt;p&gt;&amp;nbsp;*/&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
+                    <mxGeometry x="20" y="10" width="250" height="200" as="geometry"/>
+                </mxCell>
+                <mxCell id="5" value="" style="edgeStyle=none;html=1;" edge="1" parent="1" source="3">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="414" y="230" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="3" value="（必填参数）&lt;br&gt;member_id&lt;br&gt;task_id&lt;br&gt;username" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="354" y="120" width="120" height="70" as="geometry"/>
+                </mxCell>
+                <mxCell id="9" value="未达成" style="edgeStyle=none;html=1;" edge="1" parent="1" source="6" target="8">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="11" value="已达成" style="edgeStyle=none;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="6" target="12">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="414" y="445" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="6" value="查询当前任务&lt;br&gt;是否已达成" style="rhombus;whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+                    <mxGeometry x="361" y="230" width="106" height="110" as="geometry"/>
+                </mxCell>
+                <mxCell id="8" value="结束" style="ellipse;whiteSpace=wrap;html=1;rounded=0;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+                    <mxGeometry x="188" y="245" width="80" height="80" as="geometry"/>
+                </mxCell>
+                <mxCell id="14" value="是" style="edgeStyle=none;html=1;" edge="1" parent="1" source="12" target="13">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="16" value="否" style="edgeStyle=none;html=1;" edge="1" parent="1" source="12" target="15">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="12" value="是否已领奖" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="374" y="420" width="80" height="80" as="geometry"/>
+                </mxCell>
+                <mxCell id="13" value="结束" style="ellipse;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+                    <mxGeometry x="214" y="420" width="80" height="80" as="geometry"/>
+                </mxCell>
+                <mxCell id="20" value="" style="edgeStyle=none;html=1;" edge="1" parent="1" source="15" target="19">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="15" value="获取任务信息&lt;br&gt;获取奖励天数（1）" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="354" y="550" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="22" value="有" style="edgeStyle=none;html=1;" edge="1" parent="1" source="19" target="21">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="24" value="无" style="edgeStyle=none;html=1;" edge="1" parent="1" source="19" target="23">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="19" value="查询会员&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;有无有效&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;序列号" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="361" y="640" width="106" height="100" as="geometry"/>
+                </mxCell>
+                <mxCell id="26" value="" style="edgeStyle=none;html=1;" edge="1" parent="1" source="21" target="25">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="21" value="获取序列号&lt;br&gt;剩余时间" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="180" y="660" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="29" style="edgeStyle=none;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.75;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="23" target="27">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="23" value="根据奖励天数（1）&lt;br&gt;创建会员&lt;br&gt;新序列号" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="354" y="810" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="28" value="" style="edgeStyle=none;html=1;" edge="1" parent="1" source="25" target="27">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="25" value="根据&lt;br&gt;剩余时间+奖励天数（1）&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;创建会员&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;新序列号" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="165" y="800" width="150" height="80" as="geometry"/>
+                </mxCell>
+                <mxCell id="31" value="" style="edgeStyle=none;html=1;" edge="1" parent="1" source="27" target="30">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="27" value="核销任务&lt;br&gt;达成记录" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="280" y="970" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="30" value="结束" style="ellipse;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+                    <mxGeometry x="300" y="1070" width="80" height="80" as="geometry"/>
+                </mxCell>
+            </root>
+        </mxGraphModel>
+    </diagram>
+</mxfile>
